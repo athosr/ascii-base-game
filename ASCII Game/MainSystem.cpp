@@ -17,19 +17,19 @@ void MainSystem::initialize()
 	entity.push_back(Entity(10, 10, '@'));
 
 	// Generates some walls
-	for (std::size_t i = 1; i < 10; i++)
+	for (auto i = 1; i < 10; i++)
 	{
 		entity.push_back(Entity(15, i, '#'));
 	}
-	for (std::size_t i = 10; i < 30; i++)
+	for (auto i = 10; i < 30; i++)
 	{
 		entity.push_back(Entity(i, 15, '#'));
 	}
-	for (std::size_t i = 35; i < 50; i++)
+	for (auto i = 35; i < 50; i++)
 	{
 		entity.push_back(Entity(i, 5, '#'));
 	}
-	for (std::size_t i = 1; i < 16; i++)
+	for (auto i = 1; i < 16; i++)
 	{
 		entity.push_back(Entity(40, i, '#'));
 	}
